@@ -111,21 +111,11 @@ func Do(encrypter crypto.Encrypter, ep epub.Epub, w io.Writer) (enc *xmlenc.Mani
 	}
 
 	for _, res := range ep.Resource {
-		if _, alreadyEncrypted := ep.Encryption.DataForFile(res.Path); !alreadyEncrypted && canEncrypt(res, ep) {
-			compress := mustCompressBeforeEncryption(*res, ep)
-			// encrypt the resource after optionally compressing it
-			err = encryptEPUBResource(compressor, compress, encrypter, key, ep.Encryption, res, ew)
-			if err != nil {
-				log.Println("Error encrypting " + res.Path + ": " + err.Error())
-				return
-			}
-		} else {
 			// copy the resource as-is to the target publication
-			err = ew.Copy(res)
-			if err != nil {
-				log.Println("Error copying the file")
-				return
-			}
+		err = ew.Copy(res)
+		if err != nil {
+			log.Println("Error copying the file")
+			return
 		}
 	}
 

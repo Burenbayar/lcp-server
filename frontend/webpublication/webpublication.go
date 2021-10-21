@@ -23,7 +23,7 @@ import (
 	"github.com/readium/readium-lcp-server/api"
 	"github.com/readium/readium-lcp-server/config"
 	"github.com/readium/readium-lcp-server/epub"
-	"github.com/readium/readium-lcp-server/lcpencrypt/encrypt"
+	"github.com/Burenbayar/lcp-server/tree/master/lcpencrypt/encrypt"
 	apilcp "github.com/readium/readium-lcp-server/lcpserver/api"
 	"github.com/readium/readium-lcp-server/license"
 	"github.com/Burenbayar/lcp-server/tree/master/pack"

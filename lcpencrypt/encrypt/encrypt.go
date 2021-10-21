@@ -15,7 +15,7 @@ import (
 	"github.com/readium/readium-lcp-server/crypto"
 	"github.com/readium/readium-lcp-server/epub"
 	"github.com/readium/readium-lcp-server/license"
-	"github.com/readium/readium-lcp-server/pack"
+	"github.com/Burenbayar/lcp-server/tree/master/pack"
 )
 
 // EncryptionArtifact is the result of a successful encryption process

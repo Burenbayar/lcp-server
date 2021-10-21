@@ -20,7 +20,7 @@ import (
 	"github.com/readium/readium-lcp-server/api"
 	"github.com/readium/readium-lcp-server/index"
 	"github.com/readium/readium-lcp-server/license"
-	"github.com/readium/readium-lcp-server/pack"
+	"github.com/Burenbayar/lcp-server/tree/master/pack"
 	"github.com/readium/readium-lcp-server/problem"
 	"github.com/readium/readium-lcp-server/storage"
 )

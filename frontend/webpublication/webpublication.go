@@ -26,7 +26,7 @@ import (
 	"github.com/readium/readium-lcp-server/lcpencrypt/encrypt"
 	apilcp "github.com/readium/readium-lcp-server/lcpserver/api"
 	"github.com/readium/readium-lcp-server/license"
-	"github.com/readium/readium-lcp-server/pack"
+	"github.com/Burenbayar/lcp-server/tree/master/pack"
 	uuid "github.com/satori/go.uuid"
 
 	"github.com/Machiel/slugify"

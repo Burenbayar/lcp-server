@@ -1,5 +1,4 @@
 module github.com/Burenbayar/lcp-server
-
 go 1.13
 
 require (
@@ -23,3 +22,4 @@ require (
 	golang.org/x/net v0.0.0-20200301022130-244492dfa37a
 	gopkg.in/yaml.v2 v2.2.8
 )
+replace github.com/readium/readium-lcp-server => github.com/Burenbayar/lcp-server

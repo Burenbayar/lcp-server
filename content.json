@@ -1,0 +1,26 @@
+{
+    "content": {
+        "items": [
+            {
+                "url": "https://raw.githubusercontent.com/Burenbayar/lcp-server/master/KS-07.m4b",
+                "title": "VI. Хадгаламж өлсөхөөс эхлэнэ",
+                "artist": "deadmau5",
+                "album": "while(1<2)",
+                "genre": "Progressive House, Electro House",
+                "date": "2014-05-20T07:00:00+00:00",
+                "artwork": "/isbn_number/cover.png",
+                "duration": 402
+            },
+            {
+                "url": "https://raw.githubusercontent.com/Burenbayar/lcp-server/master/KS-08.m4b",
+                "title": "VII. Хадгаламж өлсөхөөс эхлэнэ",
+                "artist": "deadmau5",
+                "album": "while(1<2)",
+                "genre": "Progressive House, Electro House",
+                "date": "2014-05-20T07:00:00+00:00",
+                "artwork": "/isbn_number/cover.png",
+                "duration": 402
+            },
+        ]
+    }
+}

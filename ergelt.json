@@ -1,0 +1,33 @@
+[
+    {
+        "url":"https://raw.githubusercontent.com/Burenbayar/lcp-server/master/KS-07.m4b",
+        "title":"I. Эргэлт",
+        "artist":"Mo Yan",
+        "album":"Эргэлт",
+        "genre":"Progressive House, Electro House",
+        "date":"2014-05-20T07:00:00+00:00",
+        "artwork":"http://example.com/cover.png",
+        "duration":402
+    },
+    {
+        "url":"https://raw.githubusercontent.com/Burenbayar/lcp-server/master/KS-08.m4b",
+        "title":"II. Эргэлт",
+        "artist":"Mo Yan",
+        "album":"Эргэлт",
+        "genre":"Progressive House, Electro House",
+        "date":"2014-05-20T07:00:00+00:00",
+        "artwork":"http://example.com/cover.png",
+        "duration":402
+    },
+    {
+        "url":"https://raw.githubusercontent.com/Burenbayar/lcp-server/master/KS-08.m4b",
+        "title":"III. Эргэлт",
+        "artist":"Mo Yan",
+        "album":"Эргэлт",
+        "genre":"Progressive House, Electro House",
+        "date":"2014-05-20T07:00:00+00:00",
+        "artwork":"http://example.com/cover.png",
+        "duration":402
+        
+    }
+]
